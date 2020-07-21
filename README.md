@@ -2,6 +2,8 @@
 Flexible scraper for stock ticker mentions on reddit (for if you've ever been curious about what the folks on r/wallstreetbets were/are talking about at sometime)
 Outputs summary data on frequency of mentions for stock tickers. Also outputs raw submission data from the API call. All output is directed to a "data" folder made locally by the script.
 
+Uses Aho-Corasick string search to optimize ticker frequency counting, and ticker appearances in a title when surrounding by alphabetical characters are ignored (to avoid extraneous ticker appearances that may show up as part of other words).
+
 # Basic Functionality
 Given a time window and subreddit, collects data on all stock ticker mentions <br>
  Fields:<br>
@@ -36,5 +38,6 @@ If wanting to aggregate data from multiple subreddits:<br>
   
   
 # Other
-This scraper uses the PushShift API, not the official reddit API. PushShift is not updated live and may lag by several hours, though it compensates this with much better historical data, rate limits, and ease of time window querying.
+-This scraper uses the PushShift API, not the official reddit API. PushShift is not updated live and may lag by several hours, though it compensates this with much better historical data, rate limits, and ease of time window querying.
+-There are many tickers matching common words (eg, stopwords, "GOOD", "KNOW") that commonly show up as "false positives". I've filtered a bunch via the "detrituswords.csv" file but didn't want to go overboard filtering every possibility should there actually be interest in some of those tickers, so there will likely be some (easily identifiable) false positives when run.
  
