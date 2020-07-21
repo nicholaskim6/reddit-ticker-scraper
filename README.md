@@ -44,5 +44,5 @@ If wanting to aggregate data from multiple subreddits:<br>
   
 # Other
 -This scraper uses the PushShift API, not the official reddit API. PushShift is not updated live and may lag by several hours, though it compensates this with much better historical data, rate limits, and ease of time window querying.<br>
--There are many tickers matching common words (eg, stopwords, "GOOD", "KNOW") that commonly show up as "false positives". I've filtered a bunch via the "detrituswords.csv" file but didn't want to go overboard filtering every possibility should there actually be interest in some of those tickers, so there will likely be some (easily identifiable) false positives when run.
+-There are many tickers matching common words (eg, stopwords, "GOOD", "KNOW") that commonly show up as false positives. I've filtered a bunch via the "detrituswords.csv" file but didn't want to go overboard filtering every possibility should there actually be interest in some of those tickers, so there will likely be some (easily identifiable) false positives when run.
  
