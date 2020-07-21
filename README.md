@@ -6,7 +6,7 @@ Some of the more active stock-market related subreddits you might want to try th
 Uses Aho-Corasick string search to optimize ticker frequency counting, and ticker appearances in a title when surrounding by alphabetical characters are ignored (to avoid extraneous ticker appearances that may show up as part of other words).
 
 # Basic Functionality
-Given a time window and subreddit, collects data on all stock ticker mentions <br><br>
+Given a time window and subreddit, collects data on all stock ticker mentions <br>
 
  Fields:<br>
    -"Titles" - number of thread titles a given ticker appeared in<br>
@@ -20,6 +20,7 @@ Two main modes: "general" and "bucketed"<br>
 Comment Scraping:<br>
   -separate "comment module" for scraping comment text from a given url and summarizing data<br>
 
+Other: <br>
 -"query" input allows filtering at the API level, which can improve runtime dramatically. Common use-case is if interested only in a particular ticker.<br>
 
 # How to use
