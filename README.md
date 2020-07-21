@@ -3,7 +3,7 @@ Flexible scraper for stock ticker mentions on reddit (for if you've ever been cu
 Outputs summary data on frequency of mentions for stock tickers. Also outputs raw submission data from the API call. All output is directed to a "data" folder made locally by the script.
 
 # Basic Functionality
-Given a time window and subreddit, collects data on all stock ticker mentions
+Given a time window and subreddit, collects data on all stock ticker mentions <br>
  -Fields:
    -"Titles" - number of thread titles a given ticker appeared in
    -"Score" - cumulative upvotes for all threads where a given ticker appeared in the title
