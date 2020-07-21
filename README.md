@@ -1,6 +1,7 @@
 # reddit-ticker-scraper
-Flexible scraper for stock ticker mentions on reddit (for if you've ever been curious about what the folks on r/wallstreetbets were/are talking about at sometime)
-Outputs summary data on frequency of mentions for stock tickers. Also outputs raw submission data from the API call. All output is directed to a "data" folder made locally by the script.
+Flexible scraper for stock ticker mentions on reddit. Outputs summary data on frequency of mentions for stock tickers. Also outputs raw submission data from the API call. All output is directed to a "data" folder made locally by the script.
+
+Some of the more active stock-market related subreddits would include r/wallstreetbets, r/pennystocks, r/robinhood, and r/stocks.
 
 Uses Aho-Corasick string search to optimize ticker frequency counting, and ticker appearances in a title when surrounding by alphabetical characters are ignored (to avoid extraneous ticker appearances that may show up as part of other words).
 
