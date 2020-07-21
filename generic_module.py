@@ -177,7 +177,7 @@ def generic_summary(df, location, filename, titlecomment, after, before, bucketD
         dfMentionsTitles.to_csv(location + "Titles_BucketedSummary_" + filename)
         dfMentionsScores.to_csv(location + "Scores_BucketedSummary_" + filename)
         dfMentionsComments.to_csv(location + "Comments_BucketedSummary_" + filename)
-        return (dfMentionsTitles, dfMentionsScores, dfMentionesComments)
+        return (dfMentionsTitles, dfMentionsScores, dfMentionsComments)
     else:
         dfMentions.to_csv(location + "Summary_" + filename)
         return dfMentions
