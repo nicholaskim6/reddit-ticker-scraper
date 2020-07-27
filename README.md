@@ -24,7 +24,7 @@ Other: <br>
 -"query" input allows filtering at the API level, which can improve runtime dramatically. Common use-case is if interested only in a particular ticker.<br>
 
 # How to use
-Use manually from the main of "pushcraft_scraper.py"<br>
+Use via the GUI applications (interface.py files) or manually from the main of "pushcraft_scraper.py"<br>
 -input desired fields<br>
 -leave "query" as an empty string if no filtering is desired<br>
 -leave bucketDuration as "None" if no bucketing is desired<br>
