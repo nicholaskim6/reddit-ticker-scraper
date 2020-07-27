@@ -31,9 +31,9 @@ Use via the GUI applications (interface.py files) or manually from the main of "
 -"main()" function returns the summary data and also automatically writes them to csvs<br>
 -"comment_module()" currently is run separately from the main() function<br>
 
-If wanting to aggregate data from multiple subreddits:<br>
+If wanting to aggregate data from multiple subreddits, do in python (not in GUI):<br>
   -make a list of your subreddits<br>
-  -loop through and run main(), saving each output<br>
+  -loop through and run pushcraft_scraper.py's main(), saving each output<br>
   -sort the outputs by ticker<br>
   -combine all the dataframes<br>
   
