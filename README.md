@@ -1,5 +1,5 @@
 # reddit-ticker-scraper
-Flexible scraper for stock ticker mentions on reddit. Outputs summary data on frequency of mentions for stock tickers. Also outputs raw submission data from the API call. All output is directed to a "data" folder made locally by the script.
+Scraper for stock ticker mentions on reddit. Outputs summary data on frequency of mentions for stock tickers. Also outputs raw submission data from the API call. All output is directed to a "data" folder made locally by the script.
 
 Some of the more active stock market related subreddits you might want to try this on would include r/wallstreetbets, r/pennystocks, r/robinhood, and r/stocks.
 
