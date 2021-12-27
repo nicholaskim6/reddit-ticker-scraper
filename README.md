@@ -3,7 +3,7 @@ Scraper for stock ticker mentions on reddit. Outputs summary data on frequency o
 
 Some of the more active stock market related subreddits you might want to try this on would include r/wallstreetbets, r/pennystocks, r/robinhood, and r/stocks.
 
-Uses Aho-Corasick string search to optimize ticker frequency counting, and ticker appearances in a title when surrounding by alphabetical characters are ignored (to avoid extraneous ticker appearances that may show up as part of other words).
+Ticker appearances in a title when surrounding by alphabetical characters are ignored (to avoid extraneous ticker appearances that may show up as part of other words).
 
 # Basic Functionality
 Given a time window and subreddit, collects data on all stock ticker mentions <br>
